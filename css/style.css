@@ -1,0 +1,21 @@
+html{
+    background: #222222;
+}
+body{
+    background: whitesmoke;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.row1, .row2, .row3, .row4{
+    border: darkmagenta solid 2px;
+    height: 200px;
+    flex: 1 1 auto;
+}
+.container .row1{
+    background: #1f2937;
+}
+.container .row3{
+    background: #E5E7EB;
+}
