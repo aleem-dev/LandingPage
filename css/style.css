@@ -1,21 +1,79 @@
-html{
-    background: #222222;
-}
 body{
-    background: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
-.container{
+.hero, .footer{
+    background: #1F2937;
+    color: #E5E7EB;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ul{
+    font-size: 18px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:any-link{
+    color: #E5E7EB;
+}
+.header-logo-text{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+Button{
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 12px;
+    font-weight: 700;
+    border: #3882F6 solid 1px;
+    border-radius: 10%;
+    padding: 5px 10px 5px 10px;
+}
+.info-header-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.quote{
+    background: #E5E7EB;
+}
+.qoute-text{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+.credits{
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 700;
+}
+.call-to-action{
+    background: #3882F6; 
+}
+.actiontitle{
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+}
+.call-to-action Button{
+    border-color: #F9FAF8;
+}
+
+/* arrangement */
+body{
     display: flex;
     flex-direction: column;
 }
-.row1, .row2, .row3, .row4{
-    border: darkmagenta solid 2px;
-    height: 200px;
-    flex: 1 1 auto;
-}
-.container .row1{
-    background: #1f2937;
-}
-.container .row3{
-    background: #E5E7EB;
+.content{
+    flex:1;
 }
