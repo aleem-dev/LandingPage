@@ -1,11 +1,15 @@
 body{
     font-family: 'Roboto', sans-serif;
     height: 100vh;
-    /* padding:0 50px 0 50px; */
+    margin: 0;
+    /* web3 blur background effect */
+    background: linear-gradient(to right, #efb1ff, #9ec3f7);
 }
 .hero, .footer{
     background: #1F2937;
     color: #E5E7EB;
+    /* web3 blur background effect */
+    background: linear-gradient(to right, #1F2937, #470d55);
 }
 .hero-main-text{
     font-size: 48px;
@@ -54,6 +58,9 @@ button{
 }
 .quote{
     background: #E5E7EB;
+    /* web3 blur background effect */
+    background: linear-gradient(to right, #E5E7EB, #efb1ff);
+    
 }
 .qoute-text{
     font-size: 36px;
@@ -86,9 +93,9 @@ body{
 .actions{
     flex:1;
 }
-.hero, .header, .highlights{
+/* .hero, .header, .highlights{
     border: firebrick dotted 2px;
-}
+} */
 .hero{
     display: flex;
     flex-direction: column;
@@ -187,3 +194,66 @@ ul{
 {
     padding: 50px 0 50px 0;
 }
+/* web3 design */
+/* text */
+body{
+    /* add glow to all text */
+    text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+/* text gradient */
+.text-gradient {
+    background: linear-gradient(to right,#c43ad6, #30CFD0, red , yellowgreen, #c43ad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  :root {
+    /* violet */
+    --primary-color: 111, 76, 255;
+  
+    /* white */
+    --text-color: 256, 256, 256;
+  }
+  .btn {
+    font-family: sans-serif;
+    /* font-size: 18px; */
+    padding: 12px 32px;
+    /* margin: 1rem; */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+  }
+  .btn-glow:hover {
+    box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px;
+  }
+   
+  .btn-gradient {
+    background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
+    border: 0;
+    color: rgba(var(--text-color));
+  }
+  .btn-semi-transparent {
+    background-color: rgba(var(--primary-color), 0.15);
+    border: 1px solid rgba(var(--primary-color), 0.25);
+    color: rgba(var(--text-color), 0.8);
+  }
+  .btn-semi-transparent:hover {
+    background-color: rgba(var(--primary-color), 0.35);
+    border: 1px solid rgba(var(--primary-color), 0.5);
+    color: rgba(var(--text-color), 0.9);
+  }
+  
+  .gradient-border {
+  color: rgb(var(--text-color));
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+
+  
+  
+  
+  
+  
